@@ -1,0 +1,35 @@
+name: test
+
+description: Example
+
+version: 0.1.2
+
+environment:
+  sdk: '>=3.5.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  new_version_update:
+    path: ../
+  flutter_localizations:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+publish_to: none
