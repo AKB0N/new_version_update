@@ -30,9 +30,9 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   final newVersionUpdate = NewVersionUpdate(
     androidId:
-        'com.orange.mobinilandme', // Replace with your Android package name (optional if using default)
+        'com.akbon.myd', // Replace with your Android package name (optional if using default)
     iOSId:
-        'com.orange.mobinilandme', // Replace with your iOS bundle identifier (optional if using default)
+        'com.akbon.myd', // Replace with your iOS bundle identifier (optional if using default)
     isShowChangelog: true, // Set to false if you don't want to show change log
   );
 

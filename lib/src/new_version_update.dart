@@ -216,7 +216,8 @@ class NewVersionUpdate {
           .replaceAll('s&', 's’')
           .replaceAll('l&', 'l’')
           .replaceAll('<br>', '\n')
-          .replaceAll('& ', '& ');
+          .replaceAll('& ', '&')
+          .replaceAll('&amp;', '&');
     }
 
     return VersionStatus._(
