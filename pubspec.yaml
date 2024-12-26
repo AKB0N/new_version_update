@@ -6,6 +6,7 @@ repository: https://github.com/AKB0N/new_version_update
 dependencies:
   flutter:
     sdk: flutter
+  collection:
   html: ^0.15.5
   http: ^1.2.2
   package_info_plus: ^8.1.2
