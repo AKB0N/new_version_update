@@ -1,5 +1,5 @@
 name: new_version_update
-version: 0.0.1
+version: 0.0.2
 description: A Flutter package to check for new versions of your app on the Apple App Store and Google Play Store and show update dialog.
 repository: https://github.com/AKB0N/new_version_update
 

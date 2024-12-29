@@ -47,15 +47,6 @@ class VersionStatus {
           return false;
         }
       }
-
-      // The local version field is newer than the store version.
-      if (local[i] >= store[i]) {
-        if (isShowChangelog) {
-          return true;
-        } else {
-          return false;
-        }
-      }
     }
 
     // The local and store versions are the same.
@@ -216,7 +207,6 @@ class NewVersionUpdate {
           .replaceAll('s&', 's’')
           .replaceAll('l&', 'l’')
           .replaceAll('<br>', '\n')
-          .replaceAll('& ', '&')
           .replaceAll('&amp;', '&');
     }
 

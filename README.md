@@ -20,5 +20,5 @@ Add the dependency to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  new_version_update: ^0.0.1 
+  new_version_update: ^0.0.2 
 ```
